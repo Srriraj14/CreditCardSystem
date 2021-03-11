@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Registration</title>
+
+<style>
+body {
+  background-image: url('https://storage.googleapis.com/spirituality-health/images/Articles/_articleSummaryImage/bestbooks.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+h1 {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+   font-family: "Papyrus",  fantasy;
+}
+td {
+  color: black;
+   font-family: "Garamond",  serif;
+}
+#reg td, #reg th{
+padding:10px;
+}
+}
+</style>
+</head>
+<body>
+<h1> Registration form </h1>
+
+<iframe src="https://th.bing.com/th/id/OIP.0VP1x5zEgcqr5NR7ESMv2wHaEo?pid=Api&rs=1" align="right" width="500" height="300"  >
+</iframe>
+
+ <table id="reg" align="center">
+ <form method="POST">
+   <tr>
+<td> First Name :</td>
+    <td><input type="text" required></td>
+   </tr>
+    <tr>
+<td> Last Name :</td>
+    <td><input type="text" required></td>
+   </tr>
+    <tr>
+<td> Phone Number :</td>
+    <td><input type="number" required></td>
+   </tr>
+    <tr>
+	<td>
+<div class="Email">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div></td>
+</tr>
+<td> Gender :</td>
+    <td>
+	<input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other <br><br></td>
+   </tr>
+   <td> Languages known :</td>
+   <td>
+ <input type="checkbox" id="lang1" name="English" value="English">
+  <label for="lang1"> English</label>
+  <input type="checkbox" id="lang2" name="Tamil" value="Tamil">
+  <label for="lang2"> Tamil </label>
+  <input type="checkbox" id="lang3" name="Telugu" value="Telugu">
+  <label for="lang3"> Telugu</label>
+  <input type="checkbox" id="lang4" name="Hindi" value="Hindi">
+  <label for="lang4"> Hindi</label>
+  <input type="checkbox" id="lang5" name="Malayalam" value="Malayalam">
+  <label for="lang5"> Malayalam</label><br><br>
+  </td>
+   </tr>
+   <td> Preferred Location:</td>
+   <td>
+   <select name="location" id="location" multiple>
+    <option value="Coimbatore">Coimbatore</option>
+    <option value="Chennai">Chennai</option>
+    <option value="Bangalore">Bangalore</option>
+    <option value="Mumbai">Mumbai</option>
+	 <option value="Hydrebad">Hydrebad</option>
+	 <option value="Pune">Pune</option>
+	 </select><br><br>
+   </td>
+    </tr>
+	<td>
+	<button type="submit" value="Submit">Submit</button>
+	</td>
+	<td>
+  <button type="reset" value="Reset">Reset</button>
+</form>
+</td>
+	</table>
+	
+   </body>
+   </html>

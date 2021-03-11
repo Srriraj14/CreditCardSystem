@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>JavaScript Creating Array</title>
+</head>
+<body>
+<p id="myarray"></p>
+<script>
+var my_array=["England","Australia","India"];
+
+for(let x of my_array){
+    document.write(x + "<br/>"+ "<br/>");
+}
+document.write(my_array + "<br/>");
+
+var array_result=my_array.join('-')
+document.write(array_result+"<br/>"+ "<br/>");
+
+document.getElementById("myarray").innerHTML = my_array+ "<br/>";
+document.write("-------------------------"+"<br/>"+ "<br/>");
+//.................................................................
+
+//............................FILTER................................
+var vals=[150,200,345,375,125];
+function check_num(value)
+{
+return value>150;
+}
+document.writeln(vals.filter(check_num));
+
+</script>
+</body>
+</html>

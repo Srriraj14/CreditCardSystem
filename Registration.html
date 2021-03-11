@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Registration</title>
+<style>
+.right {
+  float: right;}
+body {
+  background-image: url('https://storage.googleapis.com/spirituality-health/images/Articles/_articleSummaryImage/bestbooks.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+</style>
+</head>
+<body>
+<h1> <center> <u> Registration form </center> </u> </h2>
+ <table>
+   <tr>
+<td> First Name :</td>
+    <td><input type="text"></td>
+   </tr>
+    <tr>
+<td> Last Name :</td>
+    <td><input type="text"></td>
+   </tr>
+    <tr>
+<td> Phone Number :</td>
+    <td><input type="number"></td>
+   </tr>
+    <tr>
+<td> Email :</td>
+    <td><input type="mail" required></td>
+   </tr>
+    <tr>
+<td> Gender :</td>
+    <td>
+	<input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other <br><br></td>
+   </tr>
+   <td> Languages known :</td>
+   <td>
+ <input type="checkbox" id="lang1" name="English" value="English">
+  <label for="lang1"> English</label>
+  <input type="checkbox" id="lang2" name="Tamil" value="Tamil">
+  <label for="lang2"> Tamil </label>
+  <input type="checkbox" id="lang3" name="Telugu" value="Telugu">
+  <label for="lang3"> Telugu</label>
+  <input type="checkbox" id="lang4" name="Hindi" value="Hindi">
+  <label for="lang4"> Hindi</label>
+  <input type="checkbox" id="lang5" name="Malayalam" value="Malayalam">
+  <label for="lang5"> Malayalam</label><br><br>
+  </td>
+   </tr>
+   <td> Preferred Location:</td>
+   <td>
+   <select name="location" id="location" multiple>
+    <option value="Coimbatore">Coimbatore</option>
+    <option value="Chennai">Chennai</option>
+    <option value="Bangalore">Bangalore</option>
+    <option value="Mumbai">Mumbai</option>
+	 <option value="Hydrebad">Hydrebad</option>
+	 <option value="Pune">Pune</option>
+	 </select><br><br>
+   </td>
+    </tr>
+	<td>
+	 <input type="submit" value="Save"></td>
+	 <td>
+ <input type="reset" value="Reset">
+  </td>
+	
+   </body>
+   </html>

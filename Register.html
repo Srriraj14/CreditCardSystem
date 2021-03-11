@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Registration</title>
+<style>
+
+body {
+  background-image: url('https://th.bing.com/th/id/OIP.Zp5a-tStvNxmr4ntfz9iQAHaEo?pid=Api&rs=1');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+</style>
+</head>
+<body>
+<h1> <center> <u> Registration form </center> </u> </h2>
+ <table align="center">
+<form>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" ><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="phone">Phone number:</label>
+  <input type="text" id="phone" name="phone" ><br><br>
+   <label for="email">Email:</label>
+  <input type="email" id="mail" name="mail" required ><br><br>
+  
+  <label for="gender">Gender:</label>
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other <br><br>
+  
+  <label for="language">Languages known:</label>
+  <input type="checkbox" id="lang1" name="English" value="English">
+  <label for="lang1"> English</label>
+  <input type="checkbox" id="lang2" name="Tamil" value="Tamil">
+  <label for="lang2"> Tamil </label>
+  <input type="checkbox" id="lang3" name="Telugu" value="Telugu">
+  <label for="lang3"> Telugu</label>
+  <input type="checkbox" id="lang4" name="Hindi" value="Hindi">
+  <label for="lang4"> Hindi</label>
+  <input type="checkbox" id="lang5" name="Malayalam" value="Malayalam">
+  <label for="lang5"> Malayalam</label><br><br>
+  
+  <label for="Location">Preferred Location:</label>
+  <select name="location" id="location" multiple>
+    <option value="Coimbatore">Coimbatore</option>
+    <option value="Chennai">Chennai</option>
+    <option value="Bangalore">Bangalore</option>
+    <option value="Mumbai">Mumbai</option>
+	 <option value="Hydrebad">Hydrebad</option>
+	 <option value="Pune">Pune</option>
+	 
+  </select>
+  <br><br>
+  
+  <input type="submit" value="Save">
+  <input type="submit" value="Reset">
+</form> 
+</table>
+</body>
+</html>
